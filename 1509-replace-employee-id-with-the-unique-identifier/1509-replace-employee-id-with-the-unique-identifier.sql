@@ -1,0 +1,1 @@
+SELECT ifnull(B.unique_id, null) AS unique_id, A.name FROM Employees A LEFT JOIN EmployeeUNI B USING(id)
